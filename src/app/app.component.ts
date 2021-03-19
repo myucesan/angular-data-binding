@@ -1,16 +1,15 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  selector: "my-app",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"]
 })
-export class AppComponent  {
-  // Add data elements for your name, the title, year released, rating, and imdb link of your favorite movie
-  // favFlop = {
-  //   title: ,
-  //   yearReleased: ,
-  //   rating: ,
-  //   imdbLink: ,
-  // }
+export class AppComponent {
+  favFlop = {
+    title: "The Avengers",
+    yearReleased: 1998,
+    rating: 3.8,
+    imdbLink: "https://www.imdb.com/title/tt0118661/"
+  };
 }
